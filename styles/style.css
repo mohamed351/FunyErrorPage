@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Ranchers";
+    src: url("../fonts/Ranchers-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+    font-family: "Ranchers";
+    color:#c0392b;
+    
+}
+#scoreId{
+    color:"#c0392b";
+}
+body{
+    background-image: url("../img/82975131-background-farm-in-the-countryside.jpg");
+    overflow: hidden;
+}
+.flex-conainer{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-conainer:first-child{
+    text-align: center;
+    vertical-align: middle;
+}
+.flex-conainer div{
+   width: 50%;
+   vertical-align: middle;
+   
+}
+.error-message{
+    font-size: 10rem;
+}
+.basket-image{
+    position: absolute;
+    top: 75%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
